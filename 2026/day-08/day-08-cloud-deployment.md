@@ -133,7 +133,7 @@ cat nginx-logs.txt | head
 
  - While running nginx server you must allow inbound rule on port 80 and the appropriate source mosty for learning pupose most people use anywere which is not good.
  
- -How to download log file from AWS ubuntu server to the local machine . 
+ - How to download log file from AWS ubuntu server to the local machine . 
 
  - In the Logs section, I learned how web server logs work, how to monitor them in real time, how to filter and save them using Linux tools, and how to securely transfer log files from a remote cloud server to my local machine using SCP.
 
