@@ -27,11 +27,13 @@ Commands Used
 ## Part 1: Launch Cloud Instance & SSH Access
 - Step 1: Create a Cloud Instance
 
-<image 1>
+<img width="1660" height="720" alt="Screenshot 2026-02-02 231414" src="https://github.com/user-attachments/assets/7a3664ee-1a72-4f45-b4d7-92e02dfa2c19" />
+
 
 - Step 2: Connect via SSH
 
-<image 2>
+<img width="1065" height="819" alt="Screenshot 2026-02-02 231630" src="https://github.com/user-attachments/assets/d1126e7a-f42f-4ffd-857e-0c9145255c5e" />
+
 
 ---
 ## Part 2: Install Docker
@@ -56,7 +58,8 @@ sudo systamctl status nginx
 ```
 ---
 
-<image 3>
+<img width="949" height="380" alt="Screenshot 2026-02-02 235405" src="https://github.com/user-attachments/assets/38e8a98e-e04d-490f-8390-4f305b7ad244" />
+
 ---
 
 ---
@@ -71,7 +74,8 @@ http://<your-instance-ip>
 
 You should see the Nginx welcome page!
 
-<nginx web server>
+<img width="1829" height="661" alt="Screenshot 2026-02-02 235606" src="https://github.com/user-attachments/assets/9572d0ef-d51e-4ac0-a32d-4be8008d8420" />
+
 
 ## Part 4: Extract Nginx Logs
 
@@ -103,28 +107,34 @@ sudo cat /var/log/nginx/access.log > ~/nginx-logs.txt
 ```
 - Step 3: Download Log File to Your Local Machine
 
-<image 4>
+<img width="897" height="189" alt="Screenshot 2026-02-03 004340" src="https://github.com/user-attachments/assets/6f1e8faf-98fe-4fe9-943e-d9ff8de4e397" />
+
 
 **(Ubuntu User)**
 
 ```bash
 scp -i your-key.pem ubuntu@<your-instance-ip>:~/nginx-logs.txt .
 ```
-<image local copy>
+<img width="627" height="247" alt="Screenshot 2026-02-03 004541" src="https://github.com/user-attachments/assets/d266ad73-c8d1-481d-ae0e-bc3e4fa5e542" />
+
 
 ---
 You can also open it:
 ---
 ```bash
 cat nginx-logs.txt | head
+
 ```
-<image 4>
+<img width="944" height="532" alt="Screenshot 2026-02-03 004603" src="https://github.com/user-attachments/assets/92846b10-6d69-4caf-a788-f655ec55aebb" />
+
 
 
 ## What I Learned
  - To after installing any services first check status of the service then start or enable it.
 
  - While running nginx server you must allow inbound rule on port 80 and the appropriate source mosty for learning pupose most people use anywere which is not good.
+ 
+ -How to download log file from AWS ubuntu server to the local machine . 
 
  - In the Logs section, I learned how web server logs work, how to monitor them in real time, how to filter and save them using Linux tools, and how to securely transfer log files from a remote cloud server to my local machine using SCP.
 
