@@ -19,9 +19,8 @@ Commands Used
 | 9. | File Check | List file details | `ls -lh ~/nginx-logs.txt` |
 | 10. | File Check | Preview saved file | `head -n 20 ~/nginx-logs.txt` |
 | 11. | SCP (AWS) | Download logs locally | `scp -i your-key.pem ubuntu@<your-instance-ip>:~/nginx-logs.txt .` |
-| 12. | Verify Nginx Install | `sudo systemctl status nginx` |
-| 13. | View Nginx Logs (LIVE) | `sudo tail -f /var/log/nginx/access.log
-` |
+| 12. | Verify Nginx Install | To check the service Status | `sudo systemctl status nginx` |
+| 13. | View Nginx Logs (LIVE) | It shows live Logs of Nginx | `sudo tail -f /var/log/nginx/access.log` |
 
 ---
 ## Part 1: Launch Cloud Instance & SSH Access
