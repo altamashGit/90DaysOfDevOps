@@ -110,7 +110,10 @@ sudo passwd berlin
 sudo passwd professor
 
 ```
-<image>
+---
+
+<img width="691" height="375" alt="Screenshot 2026-02-02 191644" src="https://github.com/user-attachments/assets/959ccc84-0041-4ffd-9624-69864bf6884d" />
+
 ---
 
 ## Task 2: Create Groups (10 minutes)
@@ -130,7 +133,11 @@ sudo groupadd <groupname>
 ```bash
 sudo cat /etc/group | tail -n 5
 ```
-<image -2>
+
+---
+
+<img width="669" height="154" alt="Screenshot 2026-02-02 192507" src="https://github.com/user-attachments/assets/690b1c7f-d423-4d7c-9e49-9441a4dfd7e0" />
+
 ---
 
 ## Task 3: Assign to Groups
@@ -156,7 +163,10 @@ sudo usermod -aG admins berlin
 ```bash
 sudo usermod -aG admins professor
 ```
-<image 3>
+---
+
+<img width="1086" height="253" alt="Screenshot 2026-02-02 204332" src="https://github.com/user-attachments/assets/96e93c63-13fe-432c-bdb9-9d4dddf7cdd0" />
+
 ---
 
 ## Task 4: Shared Directory
@@ -204,7 +214,9 @@ touch /opt/dev-project/tokyo-test.txt
 
 ```
 ---
-<image 4>
+
+<img width="1182" height="656" alt="Screenshot 2026-02-02 205142" src="https://github.com/user-attachments/assets/2cacfcd4-0d62-451e-8fac-b23d5dfa2edd" />
+
 
 ## Task 5: Team Workspace 
 
@@ -238,7 +250,12 @@ mkdir -p /opt/team-workspace
 sudo chmod 775 team-workspace
 ls -ld /opt/team-workspace
 ```
-
+---
 - Test by creating file as nairobi
+---
 
-<image 5>
+  <img width="828" height="374" alt="Screenshot 2026-02-02 221656" src="https://github.com/user-attachments/assets/638920b5-7873-4dd4-9076-9582dfc96e10" />
+
+
+<img width="1108" height="211" alt="Screenshot 2026-02-02 210910" src="https://github.com/user-attachments/assets/bc15d33d-fb9f-41c1-ad7f-cd4cdbfea57d" />
+
