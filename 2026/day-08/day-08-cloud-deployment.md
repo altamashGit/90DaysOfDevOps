@@ -36,7 +36,7 @@ Commands Used
 
 
 ---
-## Part 2: Install Docker
+## Part 2: Install Nginx
 ---
 
 - Step 1: Update System
