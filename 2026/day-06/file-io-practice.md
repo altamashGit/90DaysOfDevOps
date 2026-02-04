@@ -80,7 +80,7 @@ tail -n 2 notes.txt
 ---
 
 
-<iamge 1>
+<img width="1028" height="355" alt="Screenshot 2026-02-05 003557" src="https://github.com/user-attachments/assets/e771490c-c5c9-4d84-abdc-a45bf10d0634" />
 
 
 ---
@@ -95,9 +95,14 @@ ls -l | tee notes.txt
 echo "new line" | tee notes.txt
 
 ```
-<image 2>
 ---
 
-```
-In this task, I learned how to ***redirect text output*** to a file, how to view the first or last lines of a text file using commands like ***head and tail***, and how to use the ***tee*** command to ***append output*** to a file while also displaying it on the terminal.
-```
+<img width="890" height="423" alt="Screenshot 2026-02-05 005152" src="https://github.com/user-attachments/assets/9aea68e8-94e5-4b0f-a9ee-565b61904bc0" />
+
+---
+
+---
+In this task, I learned how to ***redirect text output*** to a file, how to view the first or last lines of a text file using
+ commands like ***head and tail***, and how to use the
+***tee*** command to ***append output*** to a file while also displaying it on the terminal.
+---
