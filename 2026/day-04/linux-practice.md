@@ -10,7 +10,9 @@
 ```bash
 ps aux | head -10
 ```
-<image-1>
+
+<img width="918" height="210" alt="image" src="https://github.com/user-attachments/assets/6ae46c43-9751-46d6-886d-14f121f0b666" />
+
 
 **What I Observed:**
 
@@ -24,7 +26,9 @@ ps aux | head -10
 ```bash
 pgrep -a ssh
 ```
-<image-2>
+
+<img width="567" height="72" alt="image" src="https://github.com/user-attachments/assets/0ccfd83a-cd57-4138-b67b-d0655b382a0d" />
+
 
 **What I Learned:**
  
@@ -37,7 +41,8 @@ pgrep -a ssh
 ```bash
 systemctl status ssh
 ```
-<image-4>
+<img width="837" height="251" alt="image" src="https://github.com/user-attachments/assets/bdc95aaf-9882-49c1-a09c-f27ca5360ff5" />
+
 
 **Observation:***
 
@@ -52,6 +57,10 @@ systemctl status ssh
 ```bash
 systemctl list-units --type=service --state=running
 ```
+
+<img width="1005" height="575" alt="image" src="https://github.com/user-attachments/assets/f8f87139-9216-4444-97c3-ef5f750fb73c" />
+
+
 **What I Learned:***
 
 - Only running services are shown
@@ -65,7 +74,8 @@ systemctl list-units --type=service --state=running
 ```bash
 sudo journalctl -u nginx | tail -10
 ```
-<image>
+<img width="985" height="310" alt="image" src="https://github.com/user-attachments/assets/f3d26075-e951-4cc1-8267-21ddb2445a16" />
+
 
 **What i leaned**
 
@@ -78,13 +88,15 @@ sudo journalctl -u nginx | tail -10
 ```bash
 tail -n 20 /var/log/syslog
 ```
-<image>
+<img width="792" height="399" alt="image" src="https://github.com/user-attachments/assets/90b97a7a-ef90-4437-808c-7514339df519" />
+
 
 **What I Learned:**
 
 - tail is useful for quick log inspection
 - Logs help verify background tasks
 ---
+
 
 ---
 ## Mini Troubleshooting Flow
@@ -110,6 +122,14 @@ sudo systemctl restart nginx
 4.Check logs:
 ```bash
 journalctl -u nginx --since "10 minutes ago" 
-<final image>
 
-> What i learned from this task that ow to use basic Linux commands like ps, systemctl, and journalctl to check running processes, inspect services, and troubleshoot issues confidently. <
+```
+<img width="1138" height="670" alt="image" src="https://github.com/user-attachments/assets/a1f8ef98-6371-4093-9554-8a42348620ab" />
+
+
+ 
+```
+What i learned from this task that ow to use basic Linux commands like ps,
+systemctl, and journalctl to check running processes,
+inspect services, and troubleshoot issues confidently. 
+```
