@@ -5,34 +5,22 @@
 
 **In this challenge, I learned:** 
 ---
-- How to create a user in Linux
-
+- How to create a user in Linux  
 - How to create a group
-
-- Difference between useradd and adduser
-
-- How to add a user to a group
-
-- How to check and modify user permissions
-
-- How to check and modify group permissions
-
-
-- Some useful commands for user and group interaction.
-
-- what is the diffrence between primary and secondry Group.
+- Difference between useradd and adduser  
+- How to add a user to a group  
+- How to check and modify user permissions  
+- How to check and modify group permissions  
+- Some useful commands for user and group interaction.  
+- what is the diffrence between primary and secondry Group.  
 ---
 
 ## Key Concepts Practiced:
-- Usefull Commands.
-
+- Usefull Commands.  
 - User management in Linux
-
-- Group management in Linux
-
-- File and directory permission handling
-
-- Understanding ownership and access control
+- Group management in Linux  
+- File and directory permission handling  
+- Understanding ownership and access control  
 
 ---
 
@@ -68,8 +56,7 @@
 
 *** Difference between useradd and adduser: ***
 
-- useradd → System-level command, requires manual configuration.
-
+- useradd → System-level command, requires manual configuration.  
 - adduser → Interactive script, automatically creates home, shell, etc.
 
 ---
